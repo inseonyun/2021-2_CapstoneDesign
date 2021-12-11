@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_body"
+    android:background="@color/theme">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bmjua"
+        android:text="회원가입"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/bmjua"
+        android:text="키"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:fontFamily="@font/bmjua"
+        android:hint="키를 입력해주세요"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="@+id/tv_height"
+        app:layout_constraintTop_toBottomOf="@+id/tv_height" />
+
+    <TextView
+        android:id="@+id/tv_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/bmjua"
+        android:text="cm"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/et_height"
+        app:layout_constraintTop_toTopOf="@+id/et_height" />
+
+    <TextView
+        android:id="@+id/tv_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bmjua"
+        android:text="몸무게"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/et_height"
+        app:layout_constraintTop_toBottomOf="@+id/et_height" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:fontFamily="@font/bmjua"
+        android:hint="몸무게를 입력해주세요"
+        android:inputType="number"
+        android:maxLength="5"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="@+id/tv_weight"
+        app:layout_constraintTop_toBottomOf="@+id/tv_weight" />
+
+    <TextView
+        android:id="@+id/tv_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/bmjua"
+        android:text="kg"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/et_weight"
+        app:layout_constraintTop_toTopOf="@+id/et_weight" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/bmjua"
+        android:text="회원가입"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:backgroundTint="@color/buttonColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_weight" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
