@@ -11,9 +11,8 @@
 
 -----
 ## [대표 이미지]
-![앱 메인화면](https://user-images.githubusercontent.com/84364741/145677268-07025b90-30e4-4ca0-92cc-cba7f7faeb07.jpg)
-![음식 사진 인식](https://user-images.githubusercontent.com/84364741/145677295-aa7ecdce-5c6a-46bb-81e6-bdbf678ba0d8.jpg)
-![푸드 다이어리 화면](https://user-images.githubusercontent.com/84364741/145677357-3ad79020-c115-4e5f-89b7-5a5767856121.jpg)
+<img src="https://user-images.githubusercontent.com/84364741/145677268-07025b90-30e4-4ca0-92cc-cba7f7faeb07.jpg" width="300" height="600"/>    <img src="https://user-images.githubusercontent.com/84364741/145677295-aa7ecdce-5c6a-46bb-81e6-bdbf678ba0d8.jpg" width="300" height="600"/>    <img src="https://user-images.githubusercontent.com/84364741/145677357-3ad79020-c115-4e5f-89b7-5a5767856121.jpg" width="300" height="600"/>
+
 
 
 ## [기대 효과 및 활용 방안]
